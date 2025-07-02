@@ -12,4 +12,4 @@
 
 ## Использование
 ```bash
-python temperature_converter.py
+python Temperature_converter.py
