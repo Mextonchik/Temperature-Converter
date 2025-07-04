@@ -13,3 +13,5 @@
 ## Использование
 ```bash
 python Temperature_converter.py
+p.s. думаю добавить кельвины и расширриь код
+
