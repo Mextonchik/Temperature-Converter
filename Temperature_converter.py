@@ -6,7 +6,7 @@ def fahren_to_cels(fahrenheit):
 temp = True   
 while temp:
     try:        
-        choice = int(input("Если вы хотите перевести градусы Цельсия в градусы Фаренгейта, напишите - 1. Если вы хотите перевести градусы Фаренгейта в градусы Цельсия, напишите - 2. Если хотите выйти - 3. Введите число: "))
+        choice = int(input("Для перевода градусов Цельсия в градусы Фаренгейта, напишите - 1. Для перевода градусов Фаренгейта в градусы Цельсия, напишите - 2. Если хотите выйти - 3. Введите число: "))
         if choice == 1:
             celsius = float(input("Введите градусы Цельсия: "))
             result = cels_to_fahren(celsius)
@@ -16,7 +16,7 @@ while temp:
             result = fahren_to_cels(fahrenheit)
             print(f"Результат: {fahrenheit}°F = {result:.2f}°C")
         elif choice == 3:
-            print("До свидания!")
+            print("Всего хорошего!")
             temp = False
         else:
             print("Пожалуйста, выбери число: 1, 2, 3!")    
